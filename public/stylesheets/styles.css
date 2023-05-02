@@ -33,6 +33,7 @@ body {
     justify-content: end;
     align-items: center;
     height: 100px;
+    
 
 }
 
@@ -58,6 +59,15 @@ body {
     background-color: white;
     padding: 10px 10px;
     text-decoration: none;
+}
+
+.gallery-button{
+    margin: 10px;
+    color: blue;
+    background-color: white;
+    padding: 10px 10px;
+    text-decoration: none;
+
 }
 
 #aboutImg{
@@ -103,6 +113,41 @@ body {
 }
 
 #worksImg1 {
-    height: 400px;
-    width: 400px;
+    height: 100%;
+    width: 33%;
+}
+
+#worksImg2 {
+    height: 100%;
+    width: 33%;
+}
+
+#worksImg3 {
+    height: 100%;
+    width: 33%;
+}
+
+#worksGallery{
+    height: 700px;
+}
+#worksContent{
+    color: white;
+    text-align: center;
+    height: 100px;
+}
+#workFull{
+    background-color: black;
+}
+
+.galleryImg{
+    height: 100%;
+    width: 470px;
+}
+
+#galleryTop{
+    height: 500px;
+}
+
+#galleryBottom{
+    height: 500px;
 }
