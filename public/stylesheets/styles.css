@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+/* .home-button{
+    position: absolute;
+    margin-top: 10px;
+}
+.works-button{
+    position: absolute;
+    margin-top: 55px;
+}
+
+.about-button{
+    position: absolute;
+    margin-top: 75px;
+} */
+
+#homeImg {
+    height: 50vh;
+    width: 50vw;
+}
+
+.navBar{
+    list-style: none;
+    background-image: url("/images/flag.jpg");
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 100px;
+
+}
+
+.about-button {
+    margin: 10px;
+    color: blue;
+    background-color: white;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+
+.works-button {
+    margin: 10px;
+    color:blue;
+    background-color: white;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+
+.home-button {
+    margin: 10px;
+    color: blue;
+    background-color: white;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+
+#aboutImg{
+    height: 100%;
+    width: 100%;
+}
+
+#aboutContent{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 0%;
+    background-image: url("/images/holy.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#leftContent {
+    margin-left: 20px;
+    font-size: 30px;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #FF00FF, 0 0 70px #FF00FF, 0 0 80px #FF00FF, 0 0 100px #FF00FF, 0 0 150px #FF00FF;
+    font-family: 'Lucida Calligraphy', 'Apple Chancery', cursive;
+
+
+    
+
+    
+}
+
+#leftContent h1{
+    font-size: 150px;
+}
+
+.homeContent {
+    text-align: center;
+
+    
+    
+}
+
+.homeContent h1{
+    background: linear-gradient(to right, blue 0%, blue 33%, white 33%, white 66%, red 66%, red 100%);
+
+}
+
+#worksImg1 {
+    height: 400px;
+    width: 400px;
+}
